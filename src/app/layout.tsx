@@ -16,8 +16,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Xavault — Give every naira a plan",
   description: "Turn your earnings into a plan you can actually keep with secure wallets and smart spending envelopes.",
-};
-
+  icons: {
+    icon: [
+      {
+        url: "/logo.svg",
+        type: "image/svg+xml",
+      }
+    ],
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
+  }
+}
 export default function RootLayout({
   children,
 }: Readonly<{
