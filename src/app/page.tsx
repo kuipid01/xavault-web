@@ -200,7 +200,7 @@ function HeroNav() {
         <Link className="transition hover:text-white" href="#about">About</Link>
       </div>
       <div className="flex items-center gap-2 text-white">
-        <Link className="hidden rounded-full px-4 py-2 text-sm font-semibold sm:block" href="#">Sign in</Link>
+
         <Link className="button-mint" href="/waitlist">Join waitlist <ArrowRight size={15} /></Link>
         <MobileMenu />
       </div>
@@ -228,7 +228,7 @@ export default function Home() {
             <Link className="button-ghost h-12 px-6 text-[15px]" href="#how-it-works">See how it works</Link>
           </div>
           <ProductPreview />
-        </div>
+        </div>age
       </section>
 
       <section id="features" className="section-grid px-5 py-24 sm:px-8 lg:py-32">
